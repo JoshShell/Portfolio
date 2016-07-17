@@ -1,0 +1,209 @@
+html, body {
+	background: #fff;
+	color: #3a3a3a;
+	margin: 0;
+	padding: 0;
+       font-family: 'PT Sans Narrow' sans-serif;
+}
+
+.container {
+	font-family: 'Londrina Sketch' cursive;
+	font-weight: 400;
+	height: 100%;
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 80%;
+	padding-bottom: 30px;
+}
+
+
+section, footer {
+	display: inline-block;
+	width: 100%;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: normal;
+}
+
+h1 {
+	color: #3a3a3a;
+	font-family: 'Londrina Sketch', cursive;
+	font-size: 105px;
+	font-weight: 400;
+	letter-spacing: 7px;
+	margin-bottom: 10px;
+	margin: 0;
+}
+
+h2 {
+	font-family:'PT Sans Narrow', sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+.content.container .about .bio {
+font-family: 'PT Sans Narrow', sans-serif;
+font-weight: normal;
+padding-top: 80px;
+}
+
+a {
+	color: #3a3a3a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #34A9FF;
+}
+
+.social ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+       font-family: 'PT Sans Narrow', sans-serif;
+       font-weight: normal;
+       padding-bottom: 30px;
+}
+
+li {
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.social ul li img {
+      align: left;
+}
+
+/* Header
+/*-----------------------*/
+header {
+
+}
+
+.info {
+	padding-top: 40px;
+        padding-bottom: 70px;
+}
+
+.webdev {
+       font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.webdev p {
+	display: inline;
+	font-size: 12px;
+	letter-spacing: 2px;
+
+
+/* Work
+/*-----------------------*/
+.social {
+	margin: 75px 0 75px 0;
+        font-family: 'PT Sans Narrow', sans-serif;
+       padding-top: 60px
+        padding-bottom: 70px;
+}
+
+.social a {
+	color: #3a3a3a;
+}
+
+.social a:hover {
+	color: #34A9FF;
+}
+
+.social span {
+	font-family: 'PT Sans Narrow' sans-serif;
+	font-size: 12px;
+	padding-left: 15px;
+}
+
+
+
+/* About
+/*-----------------------*/
+.about {
+	margin-bottom: 30px;
+       font-family: 'PT Sans Narrow', sans-serif;
+       font-weight: normal;
+}
+
+.about p {
+        font-family: 'PT Sans Narrow' sans-serif;
+	color: #3a3a3a;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.about span {
+	font-weight: 500;
+        font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.bio p span{
+	width: 80%;
+	text-align: justify;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: normal;
+}
+
+/* Footer
+/*-----------------------*/
+footer {
+	padding-top: 85px;
+}
+
+.copyright {
+	font-family: 'PT Sans Narrow', sans-serif;
+  border-top: 1px solid #999;
+	font-size: 14px;
+	margin: 50px auto 20px auto;
+	padding-top: 20px;
+}
+
+/* Media Queries
+/*-----------------------*/
+@media (max-width: 640px) {
+	.avatar {
+		width: 66px;
+		height: 100px;
+	}
+
+	h1 {
+		font-size: 50px;
+	}
+
+	h1 span {
+		display: block;
+	}
+
+	.social span {
+		padding: 0 4px;
+	}
+
+	.bio {
+		width: 100%;
+	}
+}
+
+@media (max-width: 640px) and (orientation:landscape) {
+	.info {
+		padding-top: 100px;
+	}
+}
+
+@media (max-width: 480px) {
+	.container {
+		width: 90%;
+	}
+
+	.info {
+		padding-top: 100px;
+	}
+
+	.social span {
+		padding: 0 4px;
+	}
+}
